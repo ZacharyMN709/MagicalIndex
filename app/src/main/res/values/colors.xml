@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@color/BLUEGREY_800</color>
+    <color name="colorPrimaryDark">@color/BLUEGREY_900</color>
+    <color name="colorSecondary">@color/INDIGO_900</color>
+    <color name="colorSecondaryDark">@color/INDIGO_700</color>
+    <color name="colorAccent">@color/GREY_700</color>
+    <color name="colorTertiary">@color/GREY_400</color>
+    <color name="colorQuaternary">@color/GREY_500</color>
+
+    <color name="colorFABPrimary">@color/colorBackgroundScreen</color>
+    <color name="colorFABBackground">@color/colorAccent</color>
+
+    <color name="colorBackgroundScreen">@color/YELLOW_50</color>
+    <color name="colorBackgroundItem">@color/PURE_White</color>
+    <color name="colorDivider">@color/DARK_Divider</color>
+
+    <!-- Text & Icon Settings -->
+
+    <color name="colorTextonPrimary">@color/LIGHT_PrimaryText</color>
+    <color name="colorTextSecondaryonPrimary">@color/LIGHT_SecondaryText</color>
+    <color name="colorHintonPrimary">@color/LIGHT_HintText</color>
+    <color name="colorIcononPrimary">@color/LIGHT_IconActive</color>
+
+    <color name="colorTextonPrimaryDark">@color/LIGHT_PrimaryText</color>
+    <color name="colorTextSecondaryonPrimaryDark">@color/LIGHT_SecondaryText</color>
+    <color name="colorHintonPrimaryDark">@color/LIGHT_HintText</color>
+    <color name="colorIcononPrimaryDark">@color/LIGHT_IconActive</color>
+
+    <color name="colorTextonSecondary">@color/LIGHT_PrimaryText</color>
+    <color name="colorTextSecondaryonSecondary">@color/LIGHT_SecondaryText</color>
+    <color name="colorHintonSecondary">@color/LIGHT_HintText</color>
+    <color name="colorIcononSecondary">@color/LIGHT_IconActive</color>
+
+    <color name="colorTextonSecondaryDark">@color/LIGHT_PrimaryText</color>
+    <color name="colorTextSecondaryonSecondaryDark">@color/LIGHT_SecondaryText</color>
+    <color name="colorHintonSecondaryDark">@color/LIGHT_HintText</color>
+    <color name="colorIcononSecondaryDark">@color/LIGHT_IconActive</color>
+
+    <color name="colorTextonAccent">@color/LIGHT_PrimaryText</color>
+    <color name="colorTextSecondaryonAccent">@color/LIGHT_SecondaryText</color>
+    <color name="colorHintonAccent">@color/LIGHT_HintText</color>
+    <color name="colorIcononAccent">@color/LIGHT_IconActive</color>
+
+    <color name="colorTextonTertiary">@color/LIGHT_PrimaryText</color>
+    <color name="colorTextSecondaryonTertiary">@color/LIGHT_SecondaryText</color>
+    <color name="colorHintonTertiary">@color/LIGHT_HintText</color>
+    <color name="colorIcononTertiary">@color/LIGHT_IconActive</color>
+
+    <color name="colorTextonQuaternary">@color/LIGHT_PrimaryText</color>
+    <color name="colorTextSecondaryonQuaternary">@color/LIGHT_SecondaryText</color>
+    <color name="colorHintonQuaternary">@color/LIGHT_HintText</color>
+    <color name="colorIcononQuaternary">@color/LIGHT_IconActive</color>
+
+    <color name="colorTextonBackground">@color/DARK_PrimaryText</color>
+    <color name="colorTextSecondaryonBackground">@color/DARK_SecondaryText</color>
+    <color name="colorHintonBackground">@color/DARK_HintText</color>
+    <color name="colorIcononBackground">@color/DARK_IconActive</color>
+
+    <color name="colorTextonBackgroundItem">@color/DARK_PrimaryText</color>
+    <color name="colorTextSecondaryonBackgroundItem">@color/DARK_SecondaryText</color>
+    <color name="colorHintonBackgroundItem">@color/DARK_HintText</color>
+    <color name="colorIcononBackgroundItem">@color/DARK_IconActive</color>
+
+    <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+
+
+
+    <!-- Google Colour Palette -->
+
+    <!-- RED -->
+    <color name="RED_50">#ffebee</color>
+    <color name="RED_100">#ffcdd2</color>
+    <color name="RED_200">#ef9a9a</color>
+    <color name="RED_300">#e57373</color>
+    <color name="RED_400">#ef5350</color>
+    <color name="RED_500">#f44336</color>
+    <color name="RED_600">#e53935</color>
+    <color name="RED_700">#d32f2f</color>
+    <color name="RED_800">#c62828</color>
+    <color name="RED_900">#b71c1c</color>
+
+    <color name="RED_A100">#ff8a80</color>
+    <color name="RED_A200">#ff5252</color>
+    <color name="RED_A400">#ff1744</color>
+    <color name="RED_A700">#d50000</color>
+
+
+    <!-- PINK -->
+    <color name="PINK_50">#fce4ec</color>
+    <color name="PINK_100">#f8bbd0</color>
+    <color name="PINK_200">#f48fb1</color>
+    <color name="PINK_300">#f06292</color>
+    <color name="PINK_400">#ec407a</color>
+    <color name="PINK_500">#e91e63</color>
+    <color name="PINK_600">#d81b60</color>
+    <color name="PINK_700">#c2185b</color>
+    <color name="PINK_800">#ad1457</color>
+    <color name="PINK_900">#880e4f</color>
+
+    <color name="PINK_A100">#ff80ab</color>
+    <color name="PINK_A200">#ff4081</color>
+    <color name="PINK_A400">#f50057</color>
+    <color name="PINK_A700">#c51162</color>
+
+
+    <!-- PURPLE -->
+    <color name="PURPLE_50">#f3e5f5</color>
+    <color name="PURPLE_100">#e1bee7</color>
+    <color name="PURPLE_200">#ce93d8</color>
+    <color name="PURPLE_300">#ba68c8</color>
+    <color name="PURPLE_400">#ab47bc</color>
+    <color name="PURPLE_500">#9c27b0</color>
+    <color name="PURPLE_600">#8e24aa</color>
+    <color name="PURPLE_700">#7b1fa2</color>
+    <color name="PURPLE_800">#6a1b9a</color>
+    <color name="PURPLE_900">#4a148c</color>
+
+    <color name="PURPLE_A100">#ea80fc</color>
+    <color name="PURPLE_A200">#e040fb</color>
+    <color name="PURPLE_A400">#d500f9</color>
+    <color name="PURPLE_A700">#aa00ff</color>
+
+
+
+    <!-- DEEPPURPLE -->
+    <color name="DEEPPURPLE_50">#ede7f6</color>
+    <color name="DEEPPURPLE_100">#d1c4e9</color>
+    <color name="DEEPPURPLE_200">#b39ddb</color>
+    <color name="DEEPPURPLE_300">#9575cd</color>
+    <color name="DEEPPURPLE_400">#7e57c2</color>
+    <color name="DEEPPURPLE_500">#673ab7</color>
+    <color name="DEEPPURPLE_600">#5e35b1</color>
+    <color name="DEEPPURPLE_700">#512da8</color>
+    <color name="DEEPPURPLE_800">#4527a0</color>
+    <color name="DEEPPURPLE_900">#311b92</color>
+
+    <color name="DEEPPURPLE_A100">#b388ff</color>
+    <color name="DEEPPURPLE_A200">#7c4dff</color>
+    <color name="DEEPPURPLE_A400">#651fff</color>
+    <color name="DEEPPURPLE_A700">#6200ea</color>
+
+
+    <!-- INDIGO -->
+    <color name="INDIGO_50">#e8eaf6</color>
+    <color name="INDIGO_100">#c5cae9</color>
+    <color name="INDIGO_200">#9fa8da</color>
+    <color name="INDIGO_300">#7986cb</color>
+    <color name="INDIGO_400">#5c6bc0</color>
+    <color name="INDIGO_500">#3f51b5</color>
+    <color name="INDIGO_600">#3949ab</color>
+    <color name="INDIGO_700">#303f9f</color>
+    <color name="INDIGO_800">#283593</color>
+    <color name="INDIGO_900">#1a237e</color>
+
+    <color name="INDIGO_A100">#8c9eff</color>
+    <color name="INDIGO_A200">#536dfe</color>
+    <color name="INDIGO_A400">#3d5afe</color>
+    <color name="INDIGO_A700">#304ffe</color>
+
+
+    <!-- BLUE -->
+    <color name="BLUE_50">#e3f2fd</color>
+    <color name="BLUE_100">#bbdefb</color>
+    <color name="BLUE_200">#90caf9</color>
+    <color name="BLUE_300">#64b5f6</color>
+    <color name="BLUE_400">#42a5f5</color>
+    <color name="BLUE_500">#2196f3</color>
+    <color name="BLUE_600">#1e88e5</color>
+    <color name="BLUE_700">#1976d2</color>
+    <color name="BLUE_800">#1565c0</color>
+    <color name="BLUE_900">#0d47a1</color>
+
+    <color name="BLUE_A100">#82b1ff</color>
+    <color name="BLUE_A200">#448aff</color>
+    <color name="BLUE_A400">#2979ff</color>
+    <color name="BLUE_A700">#2962ff</color>
+
+
+    <!-- LIGHTBLUE -->
+    <color name="LIGHTBLUE_50">#e1f5fe</color>
+    <color name="LIGHTBLUE_100">#b3e5fc</color>
+    <color name="LIGHTBLUE_200">#81d4fa</color>
+    <color name="LIGHTBLUE_300">#4fc3f7</color>
+    <color name="LIGHTBLUE_400">#29b6f6</color>
+    <color name="LIGHTBLUE_500">#03a9f4</color>
+    <color name="LIGHTBLUE_600">#039be5</color>
+    <color name="LIGHTBLUE_700">#0288d1</color>
+    <color name="LIGHTBLUE_800">#0277bd</color>
+    <color name="LIGHTBLUE_900">#01579b</color>
+
+    <color name="LIGHTBLUE_A100">#80d8ff</color>
+    <color name="LIGHTBLUE_A200">#40c4ff</color>
+    <color name="LIGHTBLUE_A400">#00b0ff</color>
+    <color name="LIGHTBLUE_A700">#0091ea</color>
+
+
+    <!-- CYAN -->
+    <color name="CYAN_50">#e0f7fa</color>
+    <color name="CYAN_100">#b2ebf2</color>
+    <color name="CYAN_200">#80deea</color>
+    <color name="CYAN_300">#4dd0e1</color>
+    <color name="CYAN_400">#26c6da</color>
+    <color name="CYAN_500">#00bcd4</color>
+    <color name="CYAN_600">#00acc1</color>
+    <color name="CYAN_700">#0097a7</color>
+    <color name="CYAN_800">#00838f</color>
+    <color name="CYAN_900">#006064</color>
+
+    <color name="CYAN_A100">#84ffff</color>
+    <color name="CYAN_A200">#18ffff</color>
+    <color name="CYAN_A400">#00e5ff</color>
+    <color name="CYAN_A700">#00b8d4</color>
+
+
+    <!-- TEAL -->
+    <color name="TEAL_50">#e0f2f1</color>
+    <color name="TEAL_100">#b2dfdb</color>
+    <color name="TEAL_200">#80cbc4</color>
+    <color name="TEAL_300">#4db6ac</color>
+    <color name="TEAL_400">#26a69a</color>
+    <color name="TEAL_500">#009688</color>
+    <color name="TEAL_600">#00897b</color>
+    <color name="TEAL_700">#00796b</color>
+    <color name="TEAL_800">#00695c</color>
+    <color name="TEAL_900">#004d40</color>
+
+    <color name="TEAL_A100">#a7ffeb</color>
+    <color name="TEAL_A200">#64ffda</color>
+    <color name="TEAL_A400">#1de9b6</color>
+    <color name="TEAL_A700">#00bfa5</color>
+
+
+    <!-- GREEN -->
+    <color name="GREEN_50">#e8f5e9</color>
+    <color name="GREEN_100">#c8e6c9</color>
+    <color name="GREEN_200">#a5d6a7</color>
+    <color name="GREEN_300">#81c784</color>
+    <color name="GREEN_400">#66bb6a</color>
+    <color name="GREEN_500">#4caf50</color>
+    <color name="GREEN_600">#43a047</color>
+    <color name="GREEN_700">#388e3c</color>
+    <color name="GREEN_800">#2e7d32</color>
+    <color name="GREEN_900">#1b5e20</color>
+
+    <color name="GREEN_A100">#b9f6ca</color>
+    <color name="GREEN_A200">#69f0ae</color>
+    <color name="GREEN_A400">#00e676</color>
+    <color name="GREEN_A700">#00c853</color>
+
+
+    <!-- LIGHTGREEN -->
+    <color name="LIGHTGREEN_50">#f1f8e9</color>
+    <color name="LIGHTGREEN_100">#dcedc8</color>
+    <color name="LIGHTGREEN_200">#c5e1a5</color>
+    <color name="LIGHTGREEN_300">#aed581</color>
+    <color name="LIGHTGREEN_400">#9ccc65</color>
+    <color name="LIGHTGREEN_500">#8bc34a</color>
+    <color name="LIGHTGREEN_600">#7cb342</color>
+    <color name="LIGHTGREEN_700">#689f38</color>
+    <color name="LIGHTGREEN_800">#558b2f</color>
+    <color name="LIGHTGREEN_900">#33691e</color>
+
+    <color name="LIGHTGREEN_A100">#ccff90</color>
+    <color name="LIGHTGREEN_A200">#b2ff59</color>
+    <color name="LIGHTGREEN_A400">#76ff03</color>
+    <color name="LIGHTGREEN_A700">#64dd17</color>
+
+
+    <!-- LIME -->
+    <color name="LIME_50">#f9fbe7</color>
+    <color name="LIME_100">#f0f4c3</color>
+    <color name="LIME_200">#e6ee9c</color>
+    <color name="LIME_300">#dce775</color>
+    <color name="LIME_400">#d4e157</color>
+    <color name="LIME_500">#cddc39</color>
+    <color name="LIME_600">#c0ca33</color>
+    <color name="LIME_700">#afb42b</color>
+    <color name="LIME_800">#9e9d24</color>
+    <color name="LIME_900">#827717</color>
+
+    <color name="LIME_A100">#f4ff81</color>
+    <color name="LIME_A200">#eeff41</color>
+    <color name="LIME_A400">#c6ff00</color>
+    <color name="LIME_A700">#aeea00</color>
+
+
+    <!-- YELLOW -->
+    <color name="YELLOW_50">#fffde7</color>
+    <color name="YELLOW_100">#fff9c4</color>
+    <color name="YELLOW_200">#fff59d</color>
+    <color name="YELLOW_300">#fff176</color>
+    <color name="YELLOW_400">#ffee58</color>
+    <color name="YELLOW_500">#ffeb3b</color>
+    <color name="YELLOW_600">#fdd835</color>
+    <color name="YELLOW_700">#fbc02d</color>
+    <color name="YELLOW_800">#f9a825</color>
+    <color name="YELLOW_900">#f57f17</color>
+
+    <color name="YELLOW_A100">#ffff8d</color>
+    <color name="YELLOW_A200">#ffff00</color>
+    <color name="YELLOW_A400">#ffea00</color>
+    <color name="YELLOW_A700">#ffd600</color>
+
+
+    <!-- AMBER -->
+    <color name="AMBER_50">#fff8e1</color>
+    <color name="AMBER_100">#ffecb3</color>
+    <color name="AMBER_200">#ffe082</color>
+    <color name="AMBER_300">#ffd54f</color>
+    <color name="AMBER_400">#ffca28</color>
+    <color name="AMBER_500">#ffc107</color>
+    <color name="AMBER_600">#ffb300</color>
+    <color name="AMBER_700">#ffa000</color>
+    <color name="AMBER_800">#ff8f00</color>
+    <color name="AMBER_900">#ff6f00</color>
+
+    <color name="AMBER_A100">#ffe57f</color>
+    <color name="AMBER_A200">#ffd740</color>
+    <color name="AMBER_A400">#ffc400</color>
+    <color name="AMBER_A700">#ffab00</color>
+
+
+    <!-- ORANGE -->
+    <color name="ORANGE_50">#fff3e0</color>
+    <color name="ORANGE_100">#ffe0b2</color>
+    <color name="ORANGE_200">#ffcc80</color>
+    <color name="ORANGE_300">#ffb74d</color>
+    <color name="ORANGE_400">#ffa726</color>
+    <color name="ORANGE_500">#ff9800</color>
+    <color name="ORANGE_600">#fb8c00</color>
+    <color name="ORANGE_700">#f57c00</color>
+    <color name="ORANGE_800">#ef6c00</color>
+    <color name="ORANGE_900">#e65100</color>
+
+    <color name="ORANGE_A100">#ffd180</color>
+    <color name="ORANGE_A200">#ffab40</color>
+    <color name="ORANGE_A400">#ff9100</color>
+    <color name="ORANGE_A700">#ff6d00</color>
+
+
+    <!-- DEEPORANGE -->
+    <color name="DEEPORANGE_50">#fbe9e7</color>
+    <color name="DEEPORANGE_100">#ffccbc</color>
+    <color name="DEEPORANGE_200">#ffab91</color>
+    <color name="DEEPORANGE_300">#ff8a65</color>
+    <color name="DEEPORANGE_400">#ff7043</color>
+    <color name="DEEPORANGE_500">#ff5722</color>
+    <color name="DEEPORANGE_600">#f4511e</color>
+    <color name="DEEPORANGE_700">#e64a19</color>
+    <color name="DEEPORANGE_800">#d84315</color>
+    <color name="DEEPORANGE_900">#bf360c</color>
+
+    <color name="DEEPORANGE_A100">#ff9e80</color>
+    <color name="DEEPORANGE_A200">#ff6e40</color>
+    <color name="DEEPORANGE_A400">#ff3d00</color>
+    <color name="DEEPORANGE_A700">#dd2c00</color>
+
+
+    <!-- BROWN -->
+    <color name="BROWN_50">#efebe9</color>
+    <color name="BROWN_100">#d7ccc8</color>
+    <color name="BROWN_200">#bcaaa4</color>
+    <color name="BROWN_300">#a1887f</color>
+    <color name="BROWN_400">#8d6e63</color>
+    <color name="BROWN_500">#795548</color>
+    <color name="BROWN_600">#6d4c41</color>
+    <color name="BROWN_700">#5d4037</color>
+    <color name="BROWN_800">#4e342e</color>
+    <color name="BROWN_900">#3e2723</color>
+
+
+    <!-- GREY -->
+    <color name="GREY_50">#fafafa</color>
+    <color name="GREY_100">#f5f5f5</color>
+    <color name="GREY_200">#eeeeee</color>
+    <color name="GREY_300">#e0e0e0</color>
+    <color name="GREY_400">#bdbdbd</color>
+    <color name="GREY_500">#9e9e9e</color>
+    <color name="GREY_600">#757575</color>
+    <color name="GREY_700">#616161</color>
+    <color name="GREY_800">#424242</color>
+    <color name="GREY_900">#212121</color>
+
+
+    <!-- BLUEGREY -->
+    <color name="BLUEGREY_50">#eceff1</color>
+    <color name="BLUEGREY_100">#cfd8dc</color>
+    <color name="BLUEGREY_200">#b0bec5</color>
+    <color name="BLUEGREY_300">#90a4ae</color>
+    <color name="BLUEGREY_400">#78909c</color>
+    <color name="BLUEGREY_500">#607d8b</color>
+    <color name="BLUEGREY_600">#546e7a</color>
+    <color name="BLUEGREY_700">#455a64</color>
+    <color name="BLUEGREY_800">#37474f</color>
+    <color name="BLUEGREY_900">#263238</color>
+
+
+    <!-- PURE -->
+    <color name="PURE_White">#FFFFFF</color>
+    <color name="PURE_Black">#000000</color>
+    <color name="PURE_Clear">#00000000</color>
+    <color name="SHADOW">#40000000</color>
+
+
+    <!-- TEXT COLOURS-->
+    <color name="DARK_PrimaryText">#000000</color>
+    <color name="DARK_SecondaryText">#85000000</color>
+    <color name="DARK_HintText">#50000000</color>
+    <color name="DARK_Divider">#12000000</color>
+    <color name="DARK_IconActive">#000000</color>
+    <color name="DARK_IconInactive">#50000000</color>
+
+    <color name="LIGHT_PrimaryText">#FFFFFF</color>
+    <color name="LIGHT_SecondaryText">#70FFFFFF</color>
+    <color name="LIGHT_HintText">#50FFFFFF</color>
+    <color name="LIGHT_Divider">#12FFFFFF</color>
+    <color name="LIGHT_IconActive">#FFFFFF</color>
+    <color name="LIGHT_IconInactive">#50FFFFFF</color>
+
+</resources>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/SHADOW"
+        android:clickable="true"
+        android:id="@+id/shadow"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@color/colorSecondary"
+            android:layout_marginLeft="48dp"
+            android:layout_marginRight="48dp">
+
+            <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:orientation="vertical"
+                    android:background="@color/colorBackgroundScreen"
+                    android:layout_margin="4dp"
+                    android:clickable="true">
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="42dp"
+                        android:text="Enter Character Information"
+                        android:id="@+id/textView"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:textSize="20dp"
+                        android:textColor="@color/colorTextonBackground" />
+
+                <Spinner
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/spinnerClass"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginBottom="8dp" />
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <EditText
+                            android:layout_width="fill_parent"
+                            android:layout_height="42dp"
+                            android:id="@+id/etLevel"
+                            android:textColor="@color/colorTextonSecondary"
+                            android:textSize="14dp"
+                            android:layout_marginBottom="4dp"
+                            android:background="@color/colorSecondary"
+                            android:hint="Level"
+                            android:paddingLeft="8dp"
+                            android:elevation="4dp"
+                            android:textColorHint="@color/colorHintonSecondary"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginRight="8dp"
+                        android:inputType="number" />
+
+                    <EditText
+                        android:layout_width="fill_parent"
+                        android:layout_height="42dp"
+                        android:id="@+id/etMod"
+                        android:textColor="@color/colorTextonSecondary"
+                        android:textSize="14dp"
+                        android:layout_marginBottom="4dp"
+                        android:background="@color/colorSecondary"
+                        android:hint="Mod"
+                        android:paddingLeft="8dp"
+                        android:elevation="4dp"
+                        android:textColorHint="@color/colorHintonSecondary"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="16dp"
+                        android:inputType="numberSigned" />
+                </LinearLayout>
+
+                <Button
+                        android:layout_width="fill_parent"
+                        android:layout_height="42dp"
+                        android:text="Generate Daily Spells"
+                        android:id="@+id/confirm"
+                        android:layout_weight="1"
+                        android:background="@color/colorAccent"
+                        android:layout_marginBottom="16dp"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginRight="16dp"
+                        android:layout_marginLeft="16dp"
+                        android:textColor="@color/colorTextonAccent" />
+
+                </LinearLayout>
+        </RelativeLayout>
+
+    </RelativeLayout>
+</RelativeLayout>

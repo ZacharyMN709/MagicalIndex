@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    tools:context=".MainActivity"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:clickable="false"
+    android:background="@drawable/cover2"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <android.support.percent.PercentRelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:clickable="false"
+        android:layout_marginLeft="4dp">
+
+        <android.support.percent.PercentRelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            app:layout_heightPercent="39%">
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:padding="2dp"
+                android:layout_alignParentBottom="true"
+                android:background="#b89c60"
+                app:layout_widthPercent="50%"
+                app:layout_marginBottomPercent="10%">
+
+                <EditText
+                    android:layout_width="fill_parent"
+                    android:layout_height="42dp"
+                    android:ems="10"
+                    android:id="@+id/etUsername"
+                    android:layout_gravity="center_horizontal"
+                    android:textColor="#b89c60"
+                    android:background="#3b2a34"
+                    android:textColorHint="@color/colorHintonSecondary"
+                    android:inputType="textPersonName"
+                    android:layout_centerHorizontal="true"
+                    android:hint="Enter Your Name"
+                    android:textAlignment="center" />
+            </RelativeLayout>
+        </android.support.percent.PercentRelativeLayout>
+
+        <android.support.percent.PercentRelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_marginBottom="20dp"
+            android:padding="2dp"
+            app:layout_heightPercent="61%"
+            android:id="@+id/ButtonHolder"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true">
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:text="Begin"
+                android:id="@+id/bSignup"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#b89c60"
+                android:background="@color/PURE_Clear"
+                android:onClick="signup"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentTop="true"
+                app:layout_widthPercent="30%"
+                app:layout_heightPercent="40%"
+                app:layout_marginTopPercent= "5%"/>
+        </android.support.percent.PercentRelativeLayout>
+
+    </android.support.percent.PercentRelativeLayout>
+
+</RelativeLayout>
